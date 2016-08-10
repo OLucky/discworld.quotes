@@ -1,0 +1,6 @@
+[0806/160242:ERROR:process_info.cc(608)] range at 0x43f635fe00000000, size 0x23d fully unreadable
+[0806/160242:ERROR:process_info.cc(608)] range at 0x43f6365c00000000, size 0x23d fully unreadable
+[0806/160242:ERROR:process_info.cc(608)] range at 0x0, size 0x23d fully unreadable
+[0806/160242:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0806/160242:ERROR:exception_snapshot_win.cc(57)] thread ID 3296 not found in process
+[0806/160242:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed

@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    background-image:url('images/bg.jpg');
+    background-attachment: fixed;
+
+}
+.jumbotron{
+    margin-top: 100px;
+    background-color: rgba(145,194,217,0.8);
+    border: none;
+}
+#title{
+  margin-top: 100px;
+  font-family: 'Playball', cursive;
+  text-align:center;
+  font-size: 50px;
+}
+#quote{
+  font-family: 'Niconne', cursive;
+  font-size: 30px;
+  text-align: justify;
+}
+#book{
+  font-family: 'Playball', cursive;
+  font-size: 25px;
+  text-align: right;
+}
+#qbtn{
+  font-family: 'Playball', cursive;
+  font-size: 20px;
+}
