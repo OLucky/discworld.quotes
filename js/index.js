@@ -37,11 +37,9 @@ $(function() {
         getQuote(bigList);
     });
 
-    //Twittet button script
+    //Twitter button script
     $('#twtbtn').on('click', function() {
         quote = quote.replace(/<br>/g, '%0D%0A');
-        var url = "http://twitter.com/share";
-        url += "?text=" + quote + "%0D%0A %0D%0A" + "Terry Pratchett." + " " + bookName + ".";
-        window.location.href = url;
+        window.open("http://twitter.com/share?text=" + quote + "%0D%0A %0D%0A" + "Terry Pratchett." + " " + bookName + ".%0D%0AThe Notes from Discworld. " + "&url=http://codepen.io/OLucky/full/mEaRXQ", '_blank');
     });
 });
